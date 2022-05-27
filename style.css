@@ -27,7 +27,7 @@ html {
 
 body,
 html {
-  font-size: 12px;
+  font-size: 14px;
   height: 100%;
   max-height: 1600px;
   min-height: 1000px;
@@ -68,11 +68,14 @@ html {
 
 /* ----- */
 .title-green {
-  color: #00d084;
+  color: #05be05;
 }
 
 .title-blue {
   color: #0693e3;
+}
+.title-red {
+  color: red;
 }
 
 .title-white {
@@ -107,6 +110,25 @@ h5 {
 .bg-blue {
   background-color: #0693e3;
 }
+.bg-red {
+  background-color: #ff0000b0;
+}
+.bg-green {
+  background-color: #05be05;
+}
+.text-blue {
+  color: #0693e3;
+}
+.text-red {
+  color: #ff0000b0;
+}
+.text-green {
+  color: #05be05;
+}
+.text-yellow {
+  color: rgb(151, 147, 29);
+}
+
 
 p {
   font-size: 1em;
