@@ -42,32 +42,11 @@ html {
   top: 1em;
 }
 
-/* ----- */
-.title-green {
-  color: #00d084;
+.border-red {
+  border: 1px solid red;
 }
-
-.title-blue {
-  color: #0693e3;
-}
-
-.title-white {
-  color:#ffffff;
-}
-
-.bg-blue {
-  background-color: #0693e3;
-}
-
-p {
-  font-size: 1em;
-  text-align: justify;
-  padding-bottom: 0.8em;
-}
-
-span.bold {
-  color: gray;
-  font-weight: bold;
+.border-blue {
+  border: 1px solid blue;
 }
 
 /* ----- */
@@ -85,6 +64,19 @@ span.bold {
   margin-right: 2.4em;
   width: 100%;
   max-width: 240px;
+}
+
+/* ----- */
+.title-green {
+  color: #00d084;
+}
+
+.title-blue {
+  color: #0693e3;
+}
+
+.title-white {
+  color:#ffffff;
 }
 
 /* ----- */
@@ -110,20 +102,45 @@ h5 {
   margin-bottom: 1em;
   
 }
+
 /* ----- */
+.bg-blue {
+  background-color: #0693e3;
+}
+
+p {
+  font-size: 1em;
+  text-align: justify;
+  padding-bottom: 0.8em;
+}
+
+span.bold {
+  color: gray;
+  font-weight: bold;
+}
+
+
+/*  --------  */
+header {
+  padding: 0.6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .logo img {
   width: 60px;
   background-image: url("/pictures/logo.jfif");
 }
 
-.img-ess {
-  width: 100%;
-  max-width: 240px;
-  background-image: url("/pictures/ESS.webp");
-  margin-top: 2em;
+.title h1 {
+  font-weight: 700;
+  padding-left: 2em;
+  background: -webkit-linear-gradient(#09009f, #00ff95);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-/* ----- */
 .navbar {
   display: flex;
   justify-content: center;
@@ -131,11 +148,21 @@ h5 {
 li {
   display: inline;
 }
-
 .btn-primary {
   border-radius: 20px;
   background-color: lightblue;
 }
+
+/* ----- */
+
+.img-ess {
+  width: 100%;
+  max-width: 240px;
+  background-image: url("/pictures/ESS.webp");
+  margin-top: 4em;
+}
+
+/* ----- */
 
 section {
   padding: 2em;
@@ -146,16 +173,8 @@ article {
   text-align: justify;
   margin-top: 2em;
   margin-bottom: 2em;
-  margin-left: 15em;
-  margin-right: 15em;
-}
-
-.bandeau {
-  background-color: wheat;
-}
-
-.bloc-valeur {
-  margin: 1em;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .text-panel {
@@ -165,22 +184,6 @@ article {
   margin-right: 2em;
 }
 
-.title-Section03 {
-  padding: 0.5em;
-  color: white;
-  background-color: #0693e3;
-}
-
-
-
-.imgSe01 {
-
-}
-
-.imgSe02 {
-  float: left;
-  margin-right: 2.4em;
-}
 footer {
   background-color: #222;
   color: whitesmoke;
@@ -191,9 +194,6 @@ footer {
   padding-bottom: 1.6em;
   text-align: center;
 }
-
-
-
 
 .separation {
   height: 2px;
@@ -207,9 +207,6 @@ footer {
   margin-bottom: 4em;
 }
 
-/* XXL - __ */
-@media screen and (max-width: 1400px) {
-}
 
 /* XL - __ -*/
 @media screen and (max-width: 1200px) {
@@ -217,16 +214,24 @@ footer {
 
 /* LG - __ */
 @media screen and (max-width: 992px) {
+
 }
 
 /* MD - Tablet */
 @media screen and (max-width: 768px) {
-
+  .float-left,
+  .float-right {
+    width: 25%;
+  }
 }
 
 /* SM - Mobile */
 @media screen and (max-width: 576px) {
   .bandeau {
+    display: none;
+  }
+  .float-left,
+  .float-right {
     display: none;
   }
 }
