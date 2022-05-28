@@ -166,6 +166,7 @@ header {
 .navbar {
   display: flex;
   justify-content: center;
+  font-weight: 700;
 }
 li {
   display: inline;
@@ -231,8 +232,7 @@ footer {
 
 .div{
   height:auto;
-  max-width: 600px;
-  
+  max-width: 200px;
 }
 
 #deux{
