@@ -229,6 +229,22 @@ footer {
   margin-bottom: 4em;
 }
 
+.div{
+  height:auto;
+  max-width: 600px;
+  
+}
+
+#deux{
+  display:none;
+  background-color:white;
+  opacity:0.8;
+
+}
+
+#un:hover p {display: none;}
+
+#un:hover #deux{display:block}
 
 /* XL - __ -*/
 @media screen and (max-width: 1200px) {
