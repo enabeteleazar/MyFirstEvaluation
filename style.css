@@ -206,13 +206,10 @@ footer {
   margin-bottom: 4em;
 }
 
-.banniere-actu{
-  border: 1px solid red;
-  width:100%
-}
+
 .banniere{
-  border: 1px solid blue;
   width:80%;
+  margin-left: 10%;
 }
 
 .div{
