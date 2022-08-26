@@ -36,19 +36,6 @@ html {
   background: whitesmoke;
 }
 
-.scroll {
-  position: fixed;
-  right: 2em;
-  top: 1em;
-}
-
-.border-red {
-  border: 1px solid red;
-}
-.border-blue {
-  border: 1px solid blue;
-}
-
 /* ----- */
 .float-right {
   float: right;
@@ -168,7 +155,6 @@ li {
 }
 
 /* ----- */
-
 .img-ess {
   width: 100%;
   max-width: 240px;
@@ -177,7 +163,6 @@ li {
 }
 
 /* ----- */
-
 section {
   padding: 2em;
   margin: 2em;
