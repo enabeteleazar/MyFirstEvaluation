@@ -67,6 +67,13 @@ html {
 }
 
 /* ----- */
+.h1-title {
+  font-weight: 700;
+  padding-left: 2em;
+  background: -webkit-linear-gradient(#09009f, #00ff95);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .h2-title {
   font-size: 2em;
   font-weight: 700;
@@ -84,7 +91,10 @@ h5 {
   font-size: 1.6em;
   font-weight: 600;
   margin-bottom: 1em;
-  
+}
+
+a {
+  text-decoration: none;
 }
 
 /* ----- */
@@ -119,7 +129,6 @@ span.bold {
   font-weight: bold;
 }
 
-
 /*  --------  */
 header {
   padding: 0.6em;
@@ -127,20 +136,10 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 .logo img {
   width: 60px;
   background-image: url("/pictures/logo.jfif");
 }
-
-.title h1 {
-  font-weight: 700;
-  padding-left: 2em;
-  background: -webkit-linear-gradient(#09009f, #00ff95);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .navbar {
   display: flex;
   justify-content: center;
@@ -167,7 +166,6 @@ section {
   padding: 2em;
   margin: 2em;
 }
-
 article {
   text-align: justify;
   margin-top: 2em;
@@ -175,25 +173,12 @@ article {
   margin-left: 5%;
   margin-right: 5%;
 }
-
 .text-panel {
   font-size: 1em;
   text-align: justify;
   margin-left: 2em;
   margin-right: 2em;
 }
-
-footer {
-  background-color: #222;
-  color: whitesmoke;
-  border-radius: 0 0 15px 15px;
-  font-size: 1em;
-  justify-content: center;
-  padding-top: 2em;
-  padding-bottom: 1.6em;
-  text-align: center;
-}
-
 .separation {
   height: 2px;
   color: #839d2d;
@@ -205,22 +190,42 @@ footer {
   margin-top: 2.5em;
   margin-bottom: 4em;
 }
-
-
 .banniere{
   width:80%;
   margin-left: 10%;
 }
-
 .div{
   height:auto;
   max-width: 200px;
 }
-
 #deux{
   display:none;
   background-color:white;
   opacity:0.8;
+}
+
+/* FOOTER */
+footer {
+  background-color: #222;
+  color: whitesmoke;
+  border-radius: 0 0 15px 15px;
+  font-size: 1em;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 1.6em;
+  text-align: center;
+}
+.text-center p{
+  justify-content: center;
+  text-align: center;
+}
+
+/* PAGE mention Legale */
+.mentions-legales{
+  width:90%;
+  padding-top: 2em;
+  padding-left: 10%;
+  padding-right: 5%;
 }
 
 #un:hover p {display: none;}
